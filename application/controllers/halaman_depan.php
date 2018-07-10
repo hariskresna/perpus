@@ -6,5 +6,8 @@ class Halaman_depan extends CI_Controller {
 	public function index(){
 		$this->load->view('depan/index');
 	}
+	public function modal(){
+		$this->load->view('depan/modal');
+	}
 }
 ?>

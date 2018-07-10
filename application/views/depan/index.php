@@ -49,7 +49,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</h1>
 					</div>
 					<div class="contact-bnr-w3-agile">
-						<a class="page-scroll" href="#myModal2" data-toggle="modal" data-hover="LOGIN">LOGIN</a>
+						<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">Login</button>
+						<!-- <a class="btn btn-primary btn-lg" data-target="#myModal2" data-toggle="modal" data-hover="LOGIN">LOGIN</a> -->
 					</div>
 					<!-- navbar-header -->
 					<div class="header-right-agileits">
@@ -84,12 +85,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				
 			</div>
 			<div class="clearfix"> </div>
-			<div class="subscribe">
-					<form action="#" method="post">	
-						<input type="search" class="sub-email" name="Search" required="">
-						<input type="submit"  value="">
-					</form>
-				</div>
+			<!-- <div class="subscribe"> -->
+					<!-- <form action="#" method="post">	 -->
+						<!-- <input type="search" class="sub-email" name="Search" required=""> -->
+						<!-- <input type="submit"  value=""> -->
+					<!-- </form> -->
+				<!-- </div> -->
+				<a type="button" class="btn btn-success" href="<?php echo base_url('index.php/user');?>"  data-hover="Go">Cari Buku</a>
 		</div>
 		
 <!-- //Header -->
