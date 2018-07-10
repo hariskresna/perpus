@@ -44,11 +44,11 @@
 <div class="wrapper">
 
   <header class="main-header">
-    <?php $this->load->view('admin/src/header'); ?>
+    <?php $this->load->view('user/src/header'); ?>
   </header>
   <!-- Left side column. contains the logo and sidebar -->
   <aside class="main-sidebar">
-    <?php $this->load->view('admin/src/sidebar'); ?>
+    <?php $this->load->view('user/src/sidebar'); ?>
   </aside>
 
   <!-- Content Wrapper. Contains page content -->
