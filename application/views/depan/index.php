@@ -49,8 +49,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</h1>
 					</div>
 					<div class="contact-bnr-w3-agile">
-						<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">Login</button>
-						<!-- <a class="btn btn-primary btn-lg" data-target="#myModal2" data-toggle="modal" data-hover="LOGIN">LOGIN</a> -->
+						
+						<a class="btn btn-primary btn-lg" href="<?php echo base_url('index.php/halaman_depan/login');?>">LOGIN</a>
 					</div>
 					<!-- navbar-header -->
 					<div class="header-right-agileits">

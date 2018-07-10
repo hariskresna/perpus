@@ -9,5 +9,8 @@ class Halaman_depan extends CI_Controller {
 	public function modal(){
 		$this->load->view('depan/modal');
 	}
+	public function login(){
+		$this->load->view('depan/login');
+	}
 }
 ?>
