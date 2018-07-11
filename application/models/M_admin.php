@@ -11,6 +11,9 @@ class M_admin extends CI_Model{
         $res=$this->db->get_where($table, $data);
         return $res->result_array();
     }
+    public function login($table,$data){
+        return $this->db->get_where($table, $data);
+    }
 
     public function Insert($table,$data){
         $res = $this->db->insert($table, $data); // Kode ini digunakan untuk memasukan record baru kedalam sebuah tabel

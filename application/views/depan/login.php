@@ -41,15 +41,15 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="../../index2.html"><b>Admin</b>LTE</a>
+    <a href="../../index2.html"><b>Admin</b>Login</a>
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
     <p class="login-box-msg">Sign in to start your session</p>
 
-    <form action="../../index2.html" method="post">
+    <form action="<?php echo base_url('index.php/Auth/login');?>" method="post">
       <div class="form-group has-feedback">
-        <input type="email" class="form-control" placeholder="UserId" name="userid">
+        <input type="text" class="form-control" placeholder="UserId" name="userid">
         <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
       </div>
       <div class="form-group has-feedback">
