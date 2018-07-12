@@ -10,7 +10,15 @@ class Halaman_depan extends CI_Controller {
 		$this->load->view('depan/modal');
 	}
 	public function login(){
-		$this->load->view('depan/login');
+	if( $this->session->userdata('status') == 'login' )
+	{
+		redirect(base_url('index.php/admin'));	
+	}
+	else
+	{
+		$this->load->view('depan/login');	
+	}
+		
 	}
 }
 ?>

@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Memorize an Educational Category Bootstrap Responsive Website Template | Home :: w3layouts</title>
+<title>Perpustakaan UDINUS</title>
 <!-- custom-theme -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -52,17 +52,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<a class="page-scroll" href="#myModal2" data-toggle="modal" data-hover="LOGIN">LOGIN</a>
 					</div>
 					<!-- navbar-header -->
-					<div class="header-right-agileits">
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav navbar-right">
-							<li><a href="index.html" class=" active">Home</a></li>
-							<li><a href="#about" class=" scroll">About</a></li>
-							<li><a href="#team" class=" scroll">Team</a></li>
-							<li><a href="#events" class=" scroll">Events</a></li>
-							<li><a href="#projects" class=" scroll">Projects</a></li>
-							<li><a href="#contact" class=" scroll">Contact</a></li>
-						</ul>
-					</div>
+					
 					<div class="clearfix"> </div>	
 					</div>
 				</nav>

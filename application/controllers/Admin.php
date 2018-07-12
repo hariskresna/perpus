@@ -5,7 +5,13 @@ class Admin extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('admin/dashboard');
+
+		if($this->session->userdata('status')){
+			$this->load->view('admin/dashboard');
+		}else{
+			redirect(base_url('index.php/halaman_depan/login'));		}
+		
+
 	}
 
 	public function login()
@@ -31,6 +37,12 @@ class Admin extends CI_Controller {
 		$this->load->view('admin/tambahbuku');
 	}
 
+	public function logout()
+	{
+		$this->session->sess_destroy();
+		redirect(base_url('index.php/halaman_depan'));
+	}
+	
 	public function prosestambahbuku()
 	{
 		$this->load->model('M_admin');

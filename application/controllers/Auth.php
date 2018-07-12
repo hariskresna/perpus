@@ -10,9 +10,6 @@ class Auth extends CI_Controller {
 		$where=array(
 			'username'=> $username,
 			'password'=> md5($password)
-
-
-
 		);
 		$cek=$this->M_admin->login('admin',$where)->num_rows();
 

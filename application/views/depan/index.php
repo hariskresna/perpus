@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Memorize an Educational Category Bootstrap Responsive Website Template | Home :: w3layouts</title>
+<title>Perpustakaan UDINUS</title>
 <!-- custom-theme -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -45,7 +45,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<span class="icon-bar"></span>
 								</button>
 								<h1>
-									<a class="navbar-brand" href="index.html">Memorize</a>
+									<a class="navbar-brand" href="index.html">UDINUS</a>
 								</h1>
 					</div>
 					<div class="contact-bnr-w3-agile">
@@ -54,11 +54,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<!-- navbar-header -->
 					<div class="header-right-agileits">
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav navbar-right">
-							<li><a href="index.html" class=" active">Home</a></li>
-						</ul>
-					</div>
+				
 					<div class="clearfix"> </div>	
 					</div>
 				</nav>
@@ -179,12 +175,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 <div class="copy">
 	<div class="container">
-		<p>© 2017 Memorize . All Rights Reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+		<p>© 2018 UDINUS . All Rights Reserved | <a href="http://w3layouts.com/">Perpustakaan</a></p>
 			<ul class="agileits_social_list">
-				<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-				<li><a href="#" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-				<li><a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-				<li><a href="#" class="w3_agile_vimeo"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+				<li><a href="www.facebook.com" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+				<li><a href="www.twitter.com" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 			</ul>
 	</div>
 </div>
